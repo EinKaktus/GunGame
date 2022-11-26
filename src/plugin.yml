@@ -1,0 +1,7 @@
+name: GunGame
+version: 1.0
+api-version: 1.14
+author: EinKaktus
+main: de.kaktus.main.Main
+commands:
+  gg:
