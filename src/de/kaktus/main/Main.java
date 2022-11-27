@@ -41,5 +41,6 @@ public class Main extends JavaPlugin {
         pm.registerEvents(new Damage(), this);
         pm.registerEvents(new Death(), this);
         pm.registerEvents(new Utils(), this);
+        pm.registerEvents(new Sign(), this);
     }
 }
