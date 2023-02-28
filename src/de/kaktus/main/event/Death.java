@@ -32,7 +32,6 @@ public class Death implements Listener {
             e.setDeathMessage(null);
             e.getDrops().clear();
             e.setDroppedExp(0);
-            e.setKeepLevel(true);
 
             for (Player all : Objects.requireNonNull(Bukkit.getWorld(Strings.world)).getPlayers()){
                 if (p.getKiller() != null){
